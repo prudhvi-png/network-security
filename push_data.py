@@ -52,7 +52,7 @@ class NetworkDataExtrack():
             raise CustomException(e,sys)
         
 if __name__ == "__main__":
-    FILE_PATH = "network_data\phishing.csv"
+    FILE_PATH = "network_data\phisingData.csv"
     DATABASE = "prudhviredrouth143"
     collection = "networkdata"
     network_obj = NetworkDataExtrack()
